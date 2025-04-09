@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name - Writer</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Books</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="language-switcher">
+      <a href="index.html">EN</a> |
+      <a href="index-ar.html">AR</a> |
+      <a href="index-ku.html">KU</a>
+    </div>
+  </header>
+  <main>
+    <h2>Welcome</h2>
+    <p>I’m a writer and author of books like <i>Blue People</i> and <i>The Last Guardians of Kurdistan</i>.</p>
+  </main>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>اسمك - كاتب</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <h1>اسمك</h1>
+    <nav>
+      <a href="#">الرئيسية</a>
+      <a href="#">الكتب</a>
+      <a href="#">عن الكاتب</a>
+      <a href="#">اتصل بي</a>
+    </nav>
+    <div class="language-switcher">
+      <a href="index.html">EN</a> |
+      <a href="index-ar.html">AR</a> |
+      <a href="index-ku.html">KU</a>
+    </div>
+  </header>
+  <main>
+    <h2>مرحبا</h2>
+    <p>أنا كاتب ومؤلف كتب مثل "الشعب الأزرق" و"آخر حراس كردستان".</p>
+  </main>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>ناوت - نووسەر</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <h1>ناوت</h1>
+    <nav>
+      <a href="#">ماڵەوە</a>
+      <a href="#">کتێبەکان</a>
+      <a href="#">دەربارە</a>
+      <a href="#">پەیوەندی</a>
+    </nav>
+    <div class="language-switcher">
+      <a href="index.html">EN</a> |
+      <a href="index-ar.html">AR</a> |
+      <a href="index-ku.html">KU</a>
+    </div>
+  </header>
+  <main>
+    <h2>بەخێربێی</h2>
+    <p>من نووسەرێکم و کتێبەکانم "خەڵکی شین" و "دوایین پاسەوانانی کوردستان".</p>
+  </main>
+</body>
+</html>
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a, .language-switcher a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+main {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
